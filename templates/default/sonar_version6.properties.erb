@@ -19,11 +19,11 @@ sonar.jdbc.password=<%= node['sonarqube']['jdbc']['password'] %>
 
 #----- Embedded Database (default)
 # H2 embedded database server listening port, defaults to 9092
-sonar.embeddedDatabase.port=<%= node['sonarqube']['embeddedDatabase']['port'] %>
+#sonar.embeddedDatabase.port=<%= node['sonarqube']['embeddedDatabase']['port'] %>
 
 # Added by Chef cookbook
 sonar.jdbc.url=<%= node['sonarqube']['jdbc']['url'] %>
-sonar.embeddedDatabase.dataDir=<%= node['sonarqube']['embeddedDatabase']['dataDir'] %>
+#sonar.embeddedDatabase.dataDir=<%= node['sonarqube']['embeddedDatabase']['dataDir'] %>
 
 #----- MySQL 5.6 or greater
 # Only InnoDB storage engine is supported (not myISAM).
